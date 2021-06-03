@@ -1,11 +1,15 @@
 /**
  * Esta es la clase principal del programa
- * @author Víctor Carrión e Isaac Álvarez
+ * @author Victor Carrion e Isaac Alvarez
  * @version 02/06/2021
  * @since 1.0
  * */
 
 public class ClienteBanco {
+    /**
+     * Esta en la Clase Main del proyecto
+     * @param args metodo main
+     */
     public static void main(String[] args) {
         Ahorro ctAh1 = new Ahorro(100,"01", 0.05);
         System.out.println(ctAh1.getNumero());

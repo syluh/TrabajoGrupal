@@ -7,6 +7,9 @@ import java.time.LocalDate;
 
 public class Cuenta {
     private double saldo;
+    /**
+     * Este atributo esta protegido
+     */
     protected String numero;
     private LocalDate fechaApertura;
 
@@ -34,7 +37,6 @@ public class Cuenta {
     /**
      * Metodo set del atributo decimal saldo
      * @param saldo ... Este parametro nos permitira asignar el saldo
-     * @throws  IllegalArgumentException
      * */
 
     public final void setSaldo(double saldo) {
@@ -76,7 +78,6 @@ public class Cuenta {
     /**
      * Metodo para depositar un monto
      * @param monto Este parametro nos permitira asignar el monto a depositar
-     * @throws  IllegalArgumentException
      * */
 
     public void depositar(double monto){

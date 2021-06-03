@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"Ahorro"},{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"ClienteBanco"},{"p":"<Unnamed>","l":"Corriente"},{"p":"<Unnamed>","l":"Cuenta"},{"p":"<Unnamed>","l":"SecuencialCheque"}];updateSearchResults();
